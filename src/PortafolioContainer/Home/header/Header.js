@@ -7,14 +7,13 @@ const Header = () => {
     return (  
 <Navbar bg="light" expand="lg">
   <Container>
-    <Navbar.Brand href="#home">Menu</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="#home">Hola </Nav.Link>
-        <Nav.Link href="#link">Proyecto</Nav.Link>
-        <Nav.Link href="#link2">Testimonios</Nav.Link>
-        <Nav.Link href="#link3">Contactenos</Nav.Link>
+        <Nav.Link href="#saludo">Saludos </Nav.Link>
+        <Nav.Link href="#proyectos">Proyecto</Nav.Link>
+        <Nav.Link href="#servicio">Servicios</Nav.Link>
+        <Nav.Link href="#testimonio">Testimonios</Nav.Link>
+        <Nav.Link href="#contacto">Contactenos</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

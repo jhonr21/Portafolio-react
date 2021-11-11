@@ -1,6 +1,13 @@
 .testimonio{
     display: flex;
     margin-top: 5rem;
+    height: 23rem;
+}
+h1.testimonio1{
+   color: white;
+}
+.testi{
+    background-color: black;
 }
 
 #img#img {
@@ -16,9 +23,11 @@ img#imgfinal{
 }
 
 .card-text:last-child {
-    margin-bottom: 0;
     
-    text-align: justify;
+        margin-bottom: 0;
+        text-align: justify;
+        width: 15rem;
+        margin-left: 0rem;
 }
 
 
@@ -29,6 +38,7 @@ div.card{
 .card-title {
     margin-bottom: 2.75rem;
     margin-right: -3rem;
+    margin-top: 0rem;
 }
 
 h1{

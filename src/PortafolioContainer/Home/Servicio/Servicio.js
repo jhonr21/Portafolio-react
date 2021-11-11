@@ -7,7 +7,7 @@ const Servicio = () => {
     return (  
         <Fragment>
             <div className='todo'>
-        <h1 className='servicio' >Servicio</h1>
+        <h1 id='servicio' className='servicio' >Servicio</h1>
         <div className='tipos'>
             
             <div className='textservicio' >

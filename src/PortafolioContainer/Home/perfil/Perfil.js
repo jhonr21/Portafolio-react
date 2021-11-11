@@ -35,7 +35,7 @@ export default function Perfil() {
           </div>
 
           <div className="perfil-detalle-nombre">
-            <span className="primary-text">
+            <span  className="primary-text">
               {" "}
               Hola, soy <span className="highlighted-text">Jhon Rangel</span>
             </span>
@@ -61,7 +61,7 @@ export default function Perfil() {
                   ]}
                 />
               </h1>
-              <span>Desarrollador de aplicaciones web</span>
+              <span id='saludo'>Desarrollador de aplicaciones web</span>
             </span>
           </div>
           <div className="profile-option">

@@ -7,7 +7,7 @@ import Portafolio from './PortafolioContainer/Home/portafolio/Portafolio';
 import Servicio from './PortafolioContainer/Home/Servicio/Servicio';
 import './App.css';
 import Testimonio from './PortafolioContainer/Home/Testimonio/Testimonio';
-
+import Contactame from './PortafolioContainer/Home/ContactMe/Contactame';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <Portafolio />
       <Servicio />
       <Testimonio />
+      <Contactame/>
       <Footer />
 
     </div>

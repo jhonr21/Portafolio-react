@@ -4,7 +4,7 @@
     bottom:0;
     width:100%;
     height:80px;   /* Height of the footer */
-    background:rgba(0, 7, 10, 0.952);
+    background-color: #085fb0 !important;
     color: honeydew;
     margin-top: 2rem;
 }

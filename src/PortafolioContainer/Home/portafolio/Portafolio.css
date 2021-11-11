@@ -21,7 +21,7 @@
   background-color: blue;
   color: white;
   border-radius: 1rem;
-  margin: 0 auto;
+  margin: 2px 16px;
 }
 
 .card-img, .card-img-bottom, .card-img-top {
@@ -46,9 +46,10 @@ div.card1 {
 
 
 .card-title {
-    margin-bottom: 2.75rem;
-    margin-right: -3rem;
-    margin: 0 auto;
+  margin: 0 auto;
+  margin-right: 5rem;
+  
+  margin-top: 2rem;
 }
 
 img#fomu.card-img-top{
@@ -56,4 +57,14 @@ img#fomu.card-img-top{
 
 }
 
+div#titulo1.card-title.h5{
+  margin: 0 auto;
+}
+p#titulod.card-text{
+  margin: 0 auto;
+  margin-top: 3rem;
+}
 
+a#ver.btn.btn-primary{
+  margin-top: 1rem;
+}

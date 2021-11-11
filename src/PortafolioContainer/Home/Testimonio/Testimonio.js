@@ -10,8 +10,10 @@ const Testimonio = () => {
   return (
 <Fragment>
 
-<h1>Testimonio</h1>
+<div className='testi'>
+<h1 id = 'testimonio'className='testimonio1'>Testimonios</h1>
     <div className='testimonio'>
+      
      <Card style={{ width: "18rem" }}><img id= 'img'src={img1} />
       <Card.Body>
         <Card.Title>Juan Antonio</Card.Title>
@@ -42,7 +44,7 @@ gran vocación.
     </Card>
 
     </div>
-
+</div>
     <img id= 'imgfinal' src={img} />
     </Fragment>
   );

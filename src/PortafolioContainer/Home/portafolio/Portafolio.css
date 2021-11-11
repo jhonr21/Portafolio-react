@@ -1,0 +1,59 @@
+
+.portafolio{
+  margin-top: 5rem;
+  
+}
+
+.card{
+  
+  background-color: white;
+  margin-top: 1rem;
+  margin: 0 auto;
+}
+
+.tarjeta{
+  display: flex;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+div.port2{
+  margin: 0 auto;
+  margin-top: 22px;
+  line-height: 4.2;
+  font-size: 1.25rem;
+}
+
+
+div.card1 {
+  width: 24rem !important;
+  height: 25rem!important;
+}
+
+
+.card-title {
+    margin-bottom: 2.75rem;
+    margin-right: -3rem;
+    margin: 0 auto;
+}
+
+img#fomu.card-img-top{
+  width: 43%;
+
+}
+
+

@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 import { Card, Button } from "react-bootstrap";
 import "./Portafolio.css";
-import Peliculas from '../img/pelicula.jpg';
-import Tributo from '../img/rio.jpg';
-import Formulario from '../img/formulario.jpg';
+import Peliculas from '../../img/pelicula.jpg';
+import Tributo from '../../img/rio.jpg';
+import Formulario from '../../img/formulario.jpg';
 
 
 const Portafolio = () => {
@@ -12,10 +12,10 @@ const Portafolio = () => {
 <h1 className="portafolio">Portafolio</h1>
       <div className='tarjeta'>
       <div className="card">
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={Formulario} />
+        <Card className="card1">
+          <Card.Img variant="top" id ='fomu'src={Formulario} />
           <Card.Body>
-            <Card.Title>Formulario</Card.Title>
+            <Card.Title >Formulario</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -29,10 +29,10 @@ const Portafolio = () => {
 
       
       <div className="card">
-        <Card style={{ width: "18rem" }}>
+        <Card className="card1">
           <Card.Img src={Tributo} variant="top"  />
           <Card.Body>
-            <Card.Title>Pagina Tributo</Card.Title>
+            <Card.Title class="port2">Pagina Tributo</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -44,10 +44,10 @@ const Portafolio = () => {
 
       
       <div className="card">
-        <Card style={{ width: "18rem" }}>
+        <Card className="card1">
           <Card.Img src={Peliculas} variant="top"  />
           <Card.Body>
-            <Card.Title>Pagina de Peliculas</Card.Title>
+            <Card.Title class="port2">Pagina de Peliculas</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.

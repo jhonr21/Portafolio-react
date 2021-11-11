@@ -1,0 +1,11 @@
+.saludo{
+width: 50%;
+text-align: center;
+margin-top: 4rem;
+}
+.resumen {
+    width: 50%;
+    text-align: justify;
+    margin-left: -5rem;
+    margin-top: 31px;
+}

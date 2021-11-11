@@ -1,0 +1,31 @@
+.servicio{
+margin-top: 5rem;
+
+}
+.todo{
+  background-color: rgb(243, 236, 236);  
+}
+.tipos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    padding: 1rem;
+    
+}
+
+h4{
+    text-align: justify;
+  }
+  
+  h2{
+    text-align: justify;
+  }
+
+  .btn1 {
+    
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    display: block;
+    
+  }
